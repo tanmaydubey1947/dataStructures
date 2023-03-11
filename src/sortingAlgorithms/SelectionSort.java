@@ -3,11 +3,13 @@ package sortingAlgorithms;
 public class SelectionSort {
 
 	/**
-	 * Step 1 - Get the minimum from the array and swap the first element Step 2 -
-	 * Now the first element is already sorted so search the minimum from next index
-	 * Step 3 - In the first two iteration we have got two elements sorted, again
-	 * from the next index keep repeating the steps Step 4 - Now we have three
-	 * elements sorted keep repeating the steps until we reach the last element
+	 * Step 1 - Get the minimum from the array and swap the first element
+	 * 
+	 * Step 2 -Now the first element is already sorted so search the minimum from next index
+	 * 
+	 * Step 3 - In the first two iteration we have got two elements sorted, again from the next index keep repeating the steps 
+	 * 
+	 * Step 4 - Now we have three elements sorted keep repeating the steps until we reach the last element
 	 * 
 	 * So the approach is get the minimum and swap it.
 	 * 
