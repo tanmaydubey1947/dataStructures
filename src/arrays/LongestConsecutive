@@ -7,7 +7,7 @@ import java.util.Set;
 public class LongestConsecutive {
 
     /**
-     * Leetcode Link : <a href="https://leetcode.com/problems/longest-consecutive-sequence/description//">...</a>
+     * Leetcode Link : <a href="https://leetcode.com/problems/longest-consecutive-sequence/description/">...</a>
      * <p>
      * Iteration for better approach : 1
      * </p>
