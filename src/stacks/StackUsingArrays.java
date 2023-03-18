@@ -1,16 +1,16 @@
 package stacks;
 
-public class StackUsingArray {
+public class StackUsingArrays {
 
     private int[] stackData;
     private int top;
 
-    public StackUsingArray() {
+    public StackUsingArrays() {
         this.stackData = new int[100];
         this.top = -1;
     }
 
-    public StackUsingArray(int capacity) {
+    public StackUsingArrays(int capacity) {
         this.stackData = new int[capacity];
         this.top = -1;
     }
