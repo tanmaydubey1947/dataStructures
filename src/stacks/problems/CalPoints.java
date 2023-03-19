@@ -12,8 +12,6 @@ public class CalPoints {
      * </p>
      * We have certain conditions based upon which we just have to perform basic stack operations
      * <p>
-     *
-     * <p>
      * Time Complexity : O(n)
      * </p>
      */
