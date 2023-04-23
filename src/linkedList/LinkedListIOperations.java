@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class LinkedListIOperations {
 
-	public static Node<Integer> createNodes(){
+	public static NodeGeneric<Integer> createNodes(){
 		
-		Node<Integer> head = null;
-		Node<Integer> tail = null;
+		NodeGeneric<Integer> head = null;
+		NodeGeneric<Integer> tail = null;
 		
 		Scanner s = new Scanner(System.in);
 		
@@ -15,7 +15,7 @@ public class LinkedListIOperations {
 		
 		while(data != -1) {
 			
-			Node<Integer> newNode = new Node<Integer>(data);
+			NodeGeneric<Integer> newNode = new NodeGeneric<Integer>(data);
 			
 			if(head == null) {
 				head = newNode;
@@ -32,8 +32,8 @@ public class LinkedListIOperations {
 		return head;
 	}
 	
-	public static void printNodes(Node<Integer> head) {
-		Node<Integer>  temp = head;
+	public static void printNodes(NodeGeneric<Integer> head) {
+		NodeGeneric<Integer> temp = head;
 		
 		while(temp.next != null) {
 			System.out.print(temp.data + " ");
@@ -42,10 +42,10 @@ public class LinkedListIOperations {
 		System.out.println(temp.data);
 	}
 	
-	public static Node<Integer> insertAtPos(Node<Integer> head, int pos, int data) {
+	public static NodeGeneric<Integer> insertAtPos(NodeGeneric<Integer> head, int pos, int data) {
 		
-		Node<Integer> temp = head;
-		Node<Integer> newNode = new Node<Integer>(data); 
+		NodeGeneric<Integer> temp = head;
+		NodeGeneric<Integer> newNode = new NodeGeneric<Integer>(data);
 		
 		if(pos == 0) {
 			newNode.next = head;
@@ -63,7 +63,7 @@ public class LinkedListIOperations {
 		
 	}
 	
-	public static Node<Integer> deleteANode(Node<Integer> head, int pos){
+	public static NodeGeneric<Integer> deleteANode(NodeGeneric<Integer> head, int pos){
 		
 		if(pos == 0) {
 			head = head.next;
@@ -71,8 +71,8 @@ public class LinkedListIOperations {
 			
 		}
 		else {
-			Node<Integer> tempBehind = head;
-			Node<Integer> tempForward = head.next;
+			NodeGeneric<Integer> tempBehind = head;
+			NodeGeneric<Integer> tempForward = head.next;
 			
 			for (int i = 1; i <= pos - 1; i++) {
 				tempBehind = tempBehind.next;
@@ -84,10 +84,10 @@ public class LinkedListIOperations {
 		
 	}
 	
-	public static Node<Integer> midPoint(Node<Integer> head){
+	public static NodeGeneric<Integer> midPoint(NodeGeneric<Integer> head){
 		
-		Node<Integer> fast = head;
-		Node<Integer> slow = head;
+		NodeGeneric<Integer> fast = head;
+		NodeGeneric<Integer> slow = head;
 		
 		while(fast.next != null && fast.next.next != null) {
 			slow = slow.next;
@@ -99,7 +99,7 @@ public class LinkedListIOperations {
 	
 	public static void main(String[] args) {
 		
-		Node<Integer> head = createNodes();
+		NodeGeneric<Integer> head = createNodes();
 
 		//head = insertAtPos(head, 0, 5);
 

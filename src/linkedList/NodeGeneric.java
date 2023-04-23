@@ -1,11 +1,11 @@
 package linkedList;
 
-public class Node<T> {
+public class NodeGeneric<T> {
 
 	T data;
-	Node<T> next;
+	NodeGeneric<T> next;
 	
-	Node(T data){
+	NodeGeneric(T data){
 		this.data = data;
 		this.next = null;
 	}
