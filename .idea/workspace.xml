@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="563724b4-1672-4ad6-9807-de93c560434b" name="Changes" comment="Added leetcode solution for ReverseParentheses problem">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="563724b4-1672-4ad6-9807-de93c560434b" name="Changes" comment="Added leetcode solution for MinAddToMakeValid problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dataStructures/linkedList/LinkedListIOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructures/linkedList/LinkedListIOperations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dataStructures/linkedList/LinkedListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructures/linkedList/LinkedListImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dataStructures/linkedList/MergeInBetween.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructures/linkedList/MergeInBetween.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dataStructures/linkedList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructures/linkedList/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListIOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListIOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/NodeGeneric.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,26 +42,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BuildArray">
-    <configuration name="AsteroidCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.problems.AsteroidCollision" />
+  <component name="RunManager" selected="Application.CheckKthBitSorted">
+    <configuration name="BitManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitManipulation.BitManipulation" />
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacks.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BuildArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.problems.BuildArray" />
-      <module name="dataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stacks.problems.*" />
+          <option name="PATTERN" value="bitManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsValidString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.problems.IsValidString" />
+    <configuration name="CheckKthBitSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg.bitManipulation.CheckKthBitSorted" />
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacks.problems.*" />
+          <option name="PATTERN" value="gfg.bitManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinAddToMakeValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.problems.MinAddToMakeValid" />
+    <configuration name="LambdaExpressionBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdaStreamAPI.LambdaExpressionBean" />
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacks.problems.*" />
+          <option name="PATTERN" value="lambdaStreamAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinRemoveToMakeValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.problems.MinRemoveToMakeValid" />
+    <configuration name="RemoveElementRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.RemoveElementRecursive" />
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacks.problems.*" />
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.TestClass" />
+      <module name="dataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BuildArray" />
-        <item itemvalue="Application.MinAddToMakeValid" />
-        <item itemvalue="Application.IsValidString" />
-        <item itemvalue="Application.AsteroidCollision" />
-        <item itemvalue="Application.MinRemoveToMakeValid" />
+        <item itemvalue="Application.CheckKthBitSorted" />
+        <item itemvalue="Application.BitManipulation" />
+        <item itemvalue="Application.RemoveElementRecursive" />
+        <item itemvalue="Application.LambdaExpressionBean" />
+        <item itemvalue="Application.TestClass" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681644979306</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added leetcode solution for BuildArray problem">
+      <created>1682228626800</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682228626800</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added leetcode solution for MinAddToMakeValid problem">
+      <created>1682228717290</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682228717290</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -212,7 +218,9 @@
     <MESSAGE value="Added leetcode solution for ValidateStackSequences problem" />
     <MESSAGE value="Added leetcode solution for RemoveDuplicatesII problem" />
     <MESSAGE value="Added leetcode solution for ReverseParentheses problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added leetcode solution for ReverseParentheses problem" />
+    <MESSAGE value="Added leetcode solution for BuildArray problem" />
+    <MESSAGE value="Added leetcode solution for MinAddToMakeValid problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added leetcode solution for MinAddToMakeValid problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -287,8 +295,53 @@
           <line>17</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerRank/DiagonalDifference.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerRank/DiagonalDifference.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerRank/DiagonalDifference.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/AddTwoNumbers.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/AddTwoNumbers.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/trees/TreeNode.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bitManipulation/BitManipulation.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedList/RemoveFromLast.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="linkedList.ListNode" memberName="next" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="head.next.next.next.next" />
