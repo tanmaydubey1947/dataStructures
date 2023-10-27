@@ -1,4 +1,4 @@
-package gfg.bitManipulation;
+package gfg.bitManipulation.lectureQuestions;
 
 /**
  * a ^ a = 0

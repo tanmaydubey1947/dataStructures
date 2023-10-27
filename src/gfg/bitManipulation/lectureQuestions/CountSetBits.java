@@ -1,4 +1,4 @@
-package gfg.bitManipulation;
+package gfg.bitManipulation.lectureQuestions;
 
 /**
  *  Brian Kerningam's Algorithm: n = n & (n-1) => this will unset the last set bit
