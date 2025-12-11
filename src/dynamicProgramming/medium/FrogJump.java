@@ -20,7 +20,7 @@ public class FrogJump {
             return 0;
         }
 
-        if(dp[i] != -1) {
+        if (dp[i] != -1) {
             return dp[i];
         }
 
@@ -40,6 +40,56 @@ public class FrogJump {
     }
 
     //Tabulation
+
+    public int frogJumpTabulation(int[] heights) {
+
+        int n = heights.length;
+        int[] dp = new int[n];
+
+        Arrays.fill(dp, -1);
+
+        dp[0] = 0;
+
+        for (int i = 1; i < n; i++) {
+
+            int jumpOne = dp[i - 1] + Math.abs(heights[i] - heights[i - 1]);
+
+            int jumpTwo = Integer.MAX_VALUE;
+            if (i > 1) {
+                jumpTwo = dp[i - 2] + Math.abs(heights[i] - heights[i - 2]);
+            }
+
+            dp[i] = Math.min(jumpOne, jumpTwo);
+        }
+
+        return dp[n - 1];
+    }
+
+
+    //Space Optimized
+
+    public int frogJumpSpaceOptimized(int[] heights) {
+
+        int prev = 0, prev2 = 0;
+        int n = heights.length;
+
+        for (int i = 1; i < n; i++) {
+
+            int jumpOne = prev + Math.abs(heights[i] - heights[i - 1]);
+
+            int jumpTwo = Integer.MAX_VALUE;
+            if (i > 1) {
+                jumpTwo = prev2 + Math.abs(heights[i] - heights[i - 2]);
+            }
+
+            int cur = Math.min(jumpOne, jumpTwo);
+
+            prev2 = prev;
+            prev = cur;
+        }
+
+        return prev;
+    }
 
 
 }
