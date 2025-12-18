@@ -2,7 +2,7 @@ package array.easy;
 
 public class RotateArray {
 
-    public void rotate(int[] nums, int k) {
+    public void rotate(int[] nums, int k) { //This right shift, if need to do left then do the process in reverse order
 
         int n = nums.length;
         k = k % n;
