@@ -7,19 +7,6 @@ interface Pizza {
     double getCost();
 }
 
-// ============= Concrete Components: Base pizza ==============
-class PlainPizza implements Pizza {
-    @Override
-    public String getDescription() {
-        return "Plain Pizza";
-    }
-
-    @Override
-    public double getCost() {
-        return 150.00;
-    }
-}
-
 class MargheritaPizza implements Pizza {
     @Override
     public String getDescription() {
