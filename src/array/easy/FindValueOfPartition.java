@@ -2,7 +2,7 @@ package array.easy;
 
 import java.util.Arrays;
 
-class Solution {
+public class FindValueOfPartition {
     public int findValueOfPartition(int[] nums) {
 
         Arrays.sort(nums);
