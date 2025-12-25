@@ -3,9 +3,10 @@ package dynamicProgramming.medium;
 import java.util.Arrays;
 
 
-// Recursion + Memoization
-class RecursionWithMemoization {
-    public int ninjaTraining(int[][] matrix) {
+class NinjaTraining {
+
+    // Recursion + Memoization
+    public int recursionWithMemoization(int[][] matrix) {
         int n = matrix.length;
         int[][] dp = new int[n + 1][4];
         for (int i = 0; i < n; i++) {
@@ -46,13 +47,10 @@ class RecursionWithMemoization {
 
         return dp[i][last] = max;
     }
-}
-
-// Tabulation
 
 
-class Tabulation {
-    public int ninjaTraining(int[][] matrix) {
+    // Tabulation
+    public int tabulation(int[][] matrix) {
 
         int n = matrix.length;
         int[][] dp = new int[n][4];

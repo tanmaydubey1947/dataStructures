@@ -3,9 +3,10 @@ package dynamicProgramming.medium;
 import java.util.Arrays;
 
 
-// Recursion + Memoization
-class RecursionAndMemoization {
-    public int uniquePaths(int m, int n) {
+class GridUniquePaths {
+
+    // Recursion + Memoization
+    public int recursionAndMemoization(int m, int n) {
         int[][] dp = new int[m + 1][n + 1];
         for (int i = 0; i < m; i++) {
             Arrays.fill(dp[i], -1);

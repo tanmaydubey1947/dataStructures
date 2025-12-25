@@ -1,7 +1,7 @@
 package dynamicProgramming.medium;
 
-class RecursionMemoization {
-    public int uniquePathsWithObstacles(int[][] matrix) {
+class UniquePathWithObstacles {
+    public int recursionWithMemoization(int[][] matrix) {
 
         int n = matrix.length;
         int m = matrix[0].length;
