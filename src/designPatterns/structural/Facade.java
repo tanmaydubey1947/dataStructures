@@ -69,7 +69,7 @@ class MovieBookingFacade {
 
 
 // Client Code
-class Main {
+public class Facade {
     public static void main(String[] args) {
         // Booking a movie ticket manually (using facade)
         MovieBookingFacade movieBookingFacade = new MovieBookingFacade();
