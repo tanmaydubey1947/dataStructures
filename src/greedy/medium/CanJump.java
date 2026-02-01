@@ -6,7 +6,6 @@ public class CanJump {
 
         int maxJump = 0;
         int n = nums.length;
-        int index = 0;
 
         for (int i = 0; i < n; i++) {
             int curJump = i + nums[i];
