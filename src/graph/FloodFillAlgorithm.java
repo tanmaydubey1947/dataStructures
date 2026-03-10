@@ -5,15 +5,11 @@ import java.util.Queue;
 
 public class FloodFillAlgorithm {
 
-
     int[] delRow = {-1, 0, 1, 0};
     int[] delCol = {0, 1, 0, -1};
 
     private boolean isValid(int i, int j, int n, int m) {
-        if (i < 0 || j < 0 || i >= n || j >= m) {
-            return false;
-        }
-        return true;
+        return i >= 0 && j >= 0 && i < n && j < m;
     }
 
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
